@@ -5,6 +5,7 @@ Topics/Questions:
 * What is Gherkin Syntax?
 * Why use them / What are they for
 * How do we write Gherkin test scenarios?
+
 Discussion items:
 * Define flows / patterns
 * Create scripts (Jira features & test outcomes)
@@ -42,6 +43,7 @@ Then [Expected output]
 References / More info:
 https://www.guru99.com/gherkin-test-cucumber.html
 
+## Practitest 
 ## Cypress Integration:
 https://www.npmjs.com/package/cypress-cucumber-preprocessor
 ```
@@ -54,6 +56,6 @@ Given('I open Google page', () => {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDQ3NTg2Nyw2MTg4OTE2NzcsMTc3Mj
-ExODIwMiwtNjgxODkwMTk1XX0=
+eyJoaXN0b3J5IjpbLTg1MTk0ODE1NCwxMTkwNDc1ODY3LDYxOD
+g5MTY3NywxNzcyMTE4MjAyLC02ODE4OTAxOTVdfQ==
 -->
