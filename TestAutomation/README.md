@@ -2,10 +2,10 @@
 # Gherkin Test Scripts
 
 Topics/Questions:
-	- What is Gherkin Syntax?
-	- Why use them / What are they for
-	- How do we write Gherkin test scenarios?
-- Discussion items:
+* What is Gherkin Syntax?
+	* Why use them / What are they for
+	* How do we write Gherkin test scenarios?
+Discussion items:
 	- Define flows / patterns
 	- Create scripts (Jira features & test outcomes)
 	- Cypress integration
@@ -40,5 +40,5 @@ Given('I open Google page', () => {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTg5MDE5NV19
+eyJoaXN0b3J5IjpbLTIwMzg1OTEzMjksLTY4MTg5MDE5NV19
 -->
