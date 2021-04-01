@@ -43,7 +43,9 @@ Then [Expected output]
 References / More info:
 https://www.guru99.com/gherkin-test-cucumber.html
 
-## Practitest 
+## Practitest
+https://www.practitest.com/qa-learningcenter/best-practices/bdd-testing/
+
 ## Cypress Integration:
 https://www.npmjs.com/package/cypress-cucumber-preprocessor
 ```
@@ -56,6 +58,6 @@ Given('I open Google page', () => {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTk0ODE1NCwxMTkwNDc1ODY3LDYxOD
+eyJoaXN0b3J5IjpbLTQ4MjU1OTI2OCwxMTkwNDc1ODY3LDYxOD
 g5MTY3NywxNzcyMTE4MjAyLC02ODE4OTAxOTVdfQ==
 -->
