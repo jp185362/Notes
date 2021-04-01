@@ -40,10 +40,6 @@ Scenario: Title of the Scenario
 	Then [Expected output]
 ```
 
-References / More info:
-https://www.guru99.com/gherkin-test-cucumber.html
-https://cucumber.io/docs/guides/overview/
-
 ## Practitest
 https://www.practitest.com/qa-learningcenter/best-practices/bdd-testing/
 ![enter image description here](https://www.practitest.com/assets/img/learning-center/new-requirementBDD.webp)
@@ -92,9 +88,19 @@ Feature: Guess the word
     When the Breaker joins the Maker's game
     Then the Breaker must guess a word with 5 characters
 ```
+
+## Example for SCO
+
+
+## Tools and References
+
+https://cucumber.io/living-documentation/
+https://www.guru99.com/gherkin-test-cucumber.html
+https://cucumber.io/docs/guides/overview/
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTc4OTE4MywtMTUzNzU3NDUyNywxMT
+eyJoaXN0b3J5IjpbMjA4NDQ4OTk0MCwtMTUzNzU3NDUyNywxMT
 kwNDc1ODY3LDYxODg5MTY3NywxNzcyMTE4MjAyLC02ODE4OTAx
 OTVdfQ==
 -->
