@@ -98,9 +98,11 @@ https://cucumber.io/living-documentation/
 https://www.guru99.com/gherkin-test-cucumber.html
 https://cucumber.io/docs/guides/overview/
 
+https://www.picklesdoc.com/pickles/Output/Dhtml/Index.html?feature=Features\00BasicGherkin\BasicGherkin.feature
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDQ4OTk0MCwtMTUzNzU3NDUyNywxMT
-kwNDc1ODY3LDYxODg5MTY3NywxNzcyMTE4MjAyLC02ODE4OTAx
-OTVdfQ==
+eyJoaXN0b3J5IjpbMTM2MDI5ODgyOSwyMDg0NDg5OTQwLC0xNT
+M3NTc0NTI3LDExOTA0NzU4NjcsNjE4ODkxNjc3LDE3NzIxMTgy
+MDIsLTY4MTg5MDE5NV19
 -->
