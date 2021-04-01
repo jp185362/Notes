@@ -17,7 +17,7 @@ A set of grammar rules for defining feature flows in human-readable plain text t
 
 > connects the human concept of cause and effect to the software concept of input/process/output.
 
-Overview: https://cucumber.io/docs/guides/overview/
+Overview: https://cucumber.io/docs/gherkin/reference/
 
 Key Points:
  - Behavior Driven Development
@@ -42,6 +42,7 @@ Scenario: Title of the Scenario
 
 References / More info:
 https://www.guru99.com/gherkin-test-cucumber.html
+https://cucumber.io/docs/guides/overview/
 
 ## Practitest
 https://www.practitest.com/qa-learningcenter/best-practices/bdd-testing/
@@ -93,7 +94,7 @@ Feature: Guess the word
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODMxNTE2NiwtMTUzNzU3NDUyNywxMT
+eyJoaXN0b3J5IjpbLTUwOTc4OTE4MywtMTUzNzU3NDUyNywxMT
 kwNDc1ODY3LDYxODg5MTY3NywxNzcyMTE4MjAyLC02ODE4OTAx
 OTVdfQ==
 -->
