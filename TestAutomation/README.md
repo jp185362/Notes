@@ -13,7 +13,12 @@ Discussion items:
 # What are they?
 
 Overview: https://cucumber.io/docs/guides/overview/
+
+Key Points:
  - Behavior Driven Development
+ - Structured Feature Definitions
+ - Living Documentation
+ - Executable Specifications
 
 ```gherkin
 Feature: Title of the Scenario
@@ -41,6 +46,6 @@ Given('I open Google page', () => {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4ODkxNjc3LDE3NzIxMTgyMDIsLTY4MT
-g5MDE5NV19
+eyJoaXN0b3J5IjpbLTEzMDA5OTYyNjQsNjE4ODkxNjc3LDE3Nz
+IxMTgyMDIsLTY4MTg5MDE5NV19
 -->
