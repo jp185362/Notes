@@ -12,6 +12,8 @@ Discussion items:
 
 # What are they?
 
+A set of grammar rules for defining feature flows in human-readable plain text that can be easily parsed with code.
+
 > connects the human concept of cause and effect to the software concept of input/process/output.
 
 Overview: https://cucumber.io/docs/guides/overview/
@@ -37,6 +39,8 @@ When [Event or Trigger]
 Then [Expected output]
 ```
 
+References / More info:
+https://www.guru99.com/gherkin-test-cucumber.html
 
 ## Cypress Integration:
 https://www.npmjs.com/package/cypress-cucumber-preprocessor
@@ -50,6 +54,6 @@ Given('I open Google page', () => {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTc3NDM2LDYxODg5MTY3NywxNzcyMT
-E4MjAyLC02ODE4OTAxOTVdfQ==
+eyJoaXN0b3J5IjpbMTE5MDQ3NTg2Nyw2MTg4OTE2NzcsMTc3Mj
+ExODIwMiwtNjgxODkwMTk1XX0=
 -->
