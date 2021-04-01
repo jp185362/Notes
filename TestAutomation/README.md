@@ -11,6 +11,7 @@ Discussion items:
 * Cypress integration
 
 # What are they?
+> Gherkin is a set of grammar rules that makes plain text structured enough for Cucumber to understand. The scenario above is written in Gherkin.
 
 Overview: https://cucumber.io/docs/guides/overview/
 
@@ -20,6 +21,14 @@ Key Points:
  - Living Documentation
  - Executable Specifications
 
+Example:
+```gherkin
+Scenario: Breaker guesses a word
+  Given the Maker has chosen a word
+  When the Breaker makes a guess
+  Then the Maker is asked to score
+```
+Syntax
 ```gherkin
 Feature: Title of the Scenario
 Given [Preconditions or Initial Context]
@@ -27,12 +36,6 @@ When [Event or Trigger]
 Then [Expected output]
 ```
 
-```gherkin
-Scenario: Breaker guesses a word
-  Given the Maker has chosen a word
-  When the Breaker makes a guess
-  Then the Maker is asked to score
-```
 
 ## Cypress Integration:
 https://www.npmjs.com/package/cypress-cucumber-preprocessor
@@ -46,6 +49,6 @@ Given('I open Google page', () => {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA5OTYyNjQsNjE4ODkxNjc3LDE3Nz
+eyJoaXN0b3J5IjpbLTE1NzAxNzQyMjksNjE4ODkxNjc3LDE3Nz
 IxMTgyMDIsLTY4MTg5MDE5NV19
 -->
