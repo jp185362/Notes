@@ -57,8 +57,28 @@ Given('I open Google page', () => {
   cy.visit(url)
 })
 ```
+
+## Features:
+
+Input Tables for validation different inputs
+```
+Scenario Outline: Add two numbers
+Given I have entered <First> in the calculator
+And I have entered <Second> into the calculator
+When I press add
+Then the result should be <Result> on the screen
+
+Examples:
+    | First | Second | Result |
+    | 50    | 70     | 120    |
+    | 30    | 40     | 70     |
+    | 60    | 30     | 90     |
+```
+
+## 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc1NzQ1MjcsMTE5MDQ3NTg2Nyw2MT
-g4OTE2NzcsMTc3MjExODIwMiwtNjgxODkwMTk1XX0=
+eyJoaXN0b3J5IjpbLTExMTk4NDg1NDcsLTE1Mzc1NzQ1MjcsMT
+E5MDQ3NTg2Nyw2MTg4OTE2NzcsMTc3MjExODIwMiwtNjgxODkw
+MTk1XX0=
 -->
