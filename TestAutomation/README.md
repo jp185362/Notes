@@ -61,7 +61,7 @@ Given('I open Google page', () => {
 ## Features:
 
 Example inputs for validation across an input range
-```
+```gherkin
 Scenario Outline: Add two numbers
 Given I have entered <First> in the calculator
 And I have entered <Second> into the calculator
@@ -75,10 +75,25 @@ Examples:
     | 60    | 30     | 90     |
 ```
 
-## 
+Different flows for a feature
+
+```gherkin
+Feature: Guess the word
+
+  # The first example has two steps
+  Scenario: Maker starts a game
+    When the Maker starts a game
+    Then the Maker waits for a Breaker to join
+
+  # The second example has three steps
+  Scenario: Breaker joins a game
+    Given the Maker has started a game with the word "silky"
+    When the Breaker joins the Maker's game
+    Then the Breaker must guess a word with 5 characters
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjQyNDAzOCwtMTUzNzU3NDUyNywxMT
+eyJoaXN0b3J5IjpbMTk0ODMxNTE2NiwtMTUzNzU3NDUyNywxMT
 kwNDc1ODY3LDYxODg5MTY3NywxNzcyMTE4MjAyLC02ODE4OTAx
 OTVdfQ==
 -->
