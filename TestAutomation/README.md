@@ -11,7 +11,8 @@ Discussion items:
 * Cypress integration
 
 # What are they?
-> Gherkin is a set of grammar rules that makes plain text structured enough for Cucumber to understand. The scenario above is written in Gherkin.
+
+> connects the human concept of cause and effect to the software concept of input/process/output.
 
 Overview: https://cucumber.io/docs/guides/overview/
 
@@ -49,6 +50,6 @@ Given('I open Google page', () => {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzAxNzQyMjksNjE4ODkxNjc3LDE3Nz
-IxMTgyMDIsLTY4MTg5MDE5NV19
+eyJoaXN0b3J5IjpbLTQ0NTc3NDM2LDYxODg5MTY3NywxNzcyMT
+E4MjAyLC02ODE4OTAxOTVdfQ==
 -->
