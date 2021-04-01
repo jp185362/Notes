@@ -45,6 +45,7 @@ https://www.guru99.com/gherkin-test-cucumber.html
 
 ## Practitest
 https://www.practitest.com/qa-learningcenter/best-practices/bdd-testing/
+![enter image description here](https://www.practitest.com/assets/img/learning-center/new-requirementBDD.webp)
 
 ## Cypress Integration:
 https://www.npmjs.com/package/cypress-cucumber-preprocessor
@@ -58,6 +59,6 @@ Given('I open Google page', () => {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjU1OTI2OCwxMTkwNDc1ODY3LDYxOD
-g5MTY3NywxNzcyMTE4MjAyLC02ODE4OTAxOTVdfQ==
+eyJoaXN0b3J5IjpbLTE1Mzc1NzQ1MjcsMTE5MDQ3NTg2Nyw2MT
+g4OTE2NzcsMTc3MjExODIwMiwtNjgxODkwMTk1XX0=
 -->
