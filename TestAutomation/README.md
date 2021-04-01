@@ -34,10 +34,10 @@ Scenario: Breaker guesses a word
 ```
 Syntax
 ```gherkin
-Feature: Title of the Scenario
-Given [Preconditions or Initial Context]
-When [Event or Trigger]
-Then [Expected output]
+Scenario: Title of the Scenario
+	Given [Preconditions or Initial Context]
+	When [Event or Trigger]
+	Then [Expected output]
 ```
 
 References / More info:
@@ -60,7 +60,7 @@ Given('I open Google page', () => {
 
 ## Features:
 
-Input Tables for validation different inputs
+Example inputs for validation across an input range
 ```
 Scenario Outline: Add two numbers
 Given I have entered <First> in the calculator
@@ -78,7 +78,7 @@ Examples:
 ## 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk4NDg1NDcsLTE1Mzc1NzQ1MjcsMT
-E5MDQ3NTg2Nyw2MTg4OTE2NzcsMTc3MjExODIwMiwtNjgxODkw
-MTk1XX0=
+eyJoaXN0b3J5IjpbLTkyNjQyNDAzOCwtMTUzNzU3NDUyNywxMT
+kwNDc1ODY3LDYxODg5MTY3NywxNzcyMTE4MjAyLC02ODE4OTAx
+OTVdfQ==
 -->
