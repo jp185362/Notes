@@ -2,13 +2,13 @@
 # Gherkin Test Scripts
 
 Topics/Questions:
-•	What is Gherkin Syntax?
-•	Why use them / What are they for
-•	How do we write Gherkin test scenarios?
-•	Discussion items:
-o	Define flows / patterns
-o	Create scripts (Jira features & test outcomes)
-o	Cypress integration
+	- What is Gherkin Syntax?
+	- Why use them / What are they for
+	- How do we write Gherkin test scenarios?
+- Discussion items:
+	- Define flows / patterns
+	- Create scripts (Jira features & test outcomes)
+	- Cypress integration
 
 # What are they?
 
@@ -29,9 +29,16 @@ Scenario: Breaker guesses a word
 ```
 
 ## Cypress Integration:
+https://www.npmjs.com/package/cypress-cucumber-preprocessor
+```
+import { Given } from "cypress-cucumber-preprocessor/steps";
 
-
+const url = 'https://google.com'
+Given('I open Google page', () => {
+  cy.visit(url)
+})
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQ1MzU3NDddfQ==
+eyJoaXN0b3J5IjpbLTY4MTg5MDE5NV19
 -->
