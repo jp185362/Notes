@@ -19,7 +19,7 @@ A set of grammar rules for defining feature flows in human-readable plain text t
 
 Overview: https://cucumber.io/docs/gherkin/reference/
 
-Key Points:
+Key Benefits:
  - Behavior Driven Development
  - Structured Feature Definitions
  - Living Documentation
@@ -102,7 +102,8 @@ https://www.picklesdoc.com/pickles/Output/Dhtml/Index.html?feature=Features\00Ba
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzczNDIxOSwxMzYwMjk4ODI5LDIwOD
-Q0ODk5NDAsLTE1Mzc1NzQ1MjcsMTE5MDQ3NTg2Nyw2MTg4OTE2
-NzcsMTc3MjExODIwMiwtNjgxODkwMTk1XX0=
+eyJoaXN0b3J5IjpbMTgwMjI4MTkzNCwtNzE3NzM0MjE5LDEzNj
+AyOTg4MjksMjA4NDQ4OTk0MCwtMTUzNzU3NDUyNywxMTkwNDc1
+ODY3LDYxODg5MTY3NywxNzcyMTE4MjAyLC02ODE4OTAxOTVdfQ
+==
 -->
