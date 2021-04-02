@@ -35,9 +35,9 @@ Scenario: Breaker guesses a word
 Syntax
 ```gherkin
 Scenario: Title of the Scenario
-	Given [Preconditions or Initial Context]
-	When [Event or Trigger]
-	Then [Expected output]
+  Given [Preconditions or Initial Context]
+  When [Event or Trigger]
+  Then [Expected output]
 ```
 
 ## Practitest
@@ -102,7 +102,7 @@ https://www.picklesdoc.com/pickles/Output/Dhtml/Index.html?feature=Features\00Ba
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDI5ODgyOSwyMDg0NDg5OTQwLC0xNT
-M3NTc0NTI3LDExOTA0NzU4NjcsNjE4ODkxNjc3LDE3NzIxMTgy
-MDIsLTY4MTg5MDE5NV19
+eyJoaXN0b3J5IjpbLTcxNzczNDIxOSwxMzYwMjk4ODI5LDIwOD
+Q0ODk5NDAsLTE1Mzc1NzQ1MjcsMTE5MDQ3NTg2Nyw2MTg4OTE2
+NzcsMTc3MjExODIwMiwtNjgxODkwMTk1XX0=
 -->
