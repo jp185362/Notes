@@ -1,4 +1,5 @@
 
+
 # Gherkin Test Scripts
 
 Topics/Questions:
@@ -59,11 +60,11 @@ Given('I open Google page', () => {
 
 Example inputs for validation across an input range
 ```gherkin
-Scenario Outline: Add two numbers
-Given I have entered <First> in the calculator
-And I have entered <Second> into the calculator
-When I press add
-Then the result should be <Result> on the screen
+Scenario: Add two numbers
+	Given I have entered <First> in the calculator
+	And I have entered <Second> into the calculator
+	When I press add
+	Then the result should be <Result> on the screen
 
 Examples:
     | First | Second | Result |
@@ -88,21 +89,64 @@ Feature: Guess the word
     When the Breaker joins the Maker's game
     Then the Breaker must guess a word with 5 characters
 ```
+## Writing Gherkin Test Scripts
+
+> The Cardinal Rule of BDD: _One Scenario, One Behavior!_
+
+Multi-Step Scenarios for Features
+```gherkin
+Feature: Google Searching
+
+  Scenario: Search from the search bar
+    Given a web browser is at the Google home page
+    When the user enters "panda" into the search bar
+    Then links related to "panda" are shown on the results page
+
+  Scenario: Image search
+    Given Google search results for "panda" are shown
+    When the user clicks on the "Images" link at the top of the results page
+    Then images related to "panda" are shown on the results page
+```
+
+The ***given*** step in the second scenario describes the dependency on the outcome of scenario #1.
 
 ## Example for SCO
+```gherkin
+Feature: Live Weight Updates
+  Scenario: Updates are Reflected on Welcome
+    Given lane is at attract
+    When the user places <weight> on the produce scale
+    Then the weights & measures label displays <weight>
+      
+  Scenario: Updates are Reflected on Itemization
+    Given a transaction was started
+    When the user places <weight> on the produce scale
+    Then the weights & measures label displays <weight>
+   
+  ## Not a valid flow. Demo purposes only
+  Scenario: Updates are reflected using metric 
+    Given lane is configured with with "inputsequencer.use_metric=Y"
+    When the user places 1 kg on the produce scale
+    Then the weights & measures label displays 1.00 kg
 
+ Examples: non-zero weight
+   | weight |
+   | 1.00 lb |
+   | 0.01 lb |
+```
 
 ## Tools and References
+https://automationpanda.com/2017/01/30/bdd-101-writing-good-gherkin/
+https://cucumber.io/living-documentation/
+https://www.guru99.com/gherkin-test-cucumber.html
+https://cucumber.io/docs/guides/overview/
 
-https://cucumber.io/living-documentation/  
-https://www.guru99.com/gherkin-test-cucumber.html  
-https://cucumber.io/docs/guides/overview/  
 https://www.picklesdoc.com/pickles/Output/Dhtml/Index.html?feature=Features\00BasicGherkin\BasicGherkin.feature
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyMjM0MDQ0LDE4MDIyODE5MzQsLTcxNz
-czNDIxOSwxMzYwMjk4ODI5LDIwODQ0ODk5NDAsLTE1Mzc1NzQ1
-MjcsMTE5MDQ3NTg2Nyw2MTg4OTE2NzcsMTc3MjExODIwMiwtNj
-gxODkwMTk1XX0=
+eyJoaXN0b3J5IjpbOTQzMzQyOTU2LDc4MjIzNDA0NCwxODAyMj
+gxOTM0LC03MTc3MzQyMTksMTM2MDI5ODgyOSwyMDg0NDg5OTQw
+LC0xNTM3NTc0NTI3LDExOTA0NzU4NjcsNjE4ODkxNjc3LDE3Nz
+IxMTgyMDIsLTY4MTg5MDE5NV19
 -->
