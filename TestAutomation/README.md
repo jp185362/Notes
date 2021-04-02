@@ -94,16 +94,15 @@ Feature: Guess the word
 
 ## Tools and References
 
-https://cucumber.io/living-documentation/
-https://www.guru99.com/gherkin-test-cucumber.html
-https://cucumber.io/docs/guides/overview/
-
+https://cucumber.io/living-documentation/  
+https://www.guru99.com/gherkin-test-cucumber.html  
+https://cucumber.io/docs/guides/overview/  
 https://www.picklesdoc.com/pickles/Output/Dhtml/Index.html?feature=Features\00BasicGherkin\BasicGherkin.feature
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjI4MTkzNCwtNzE3NzM0MjE5LDEzNj
-AyOTg4MjksMjA4NDQ4OTk0MCwtMTUzNzU3NDUyNywxMTkwNDc1
-ODY3LDYxODg5MTY3NywxNzcyMTE4MjAyLC02ODE4OTAxOTVdfQ
-==
+eyJoaXN0b3J5IjpbNzgyMjM0MDQ0LDE4MDIyODE5MzQsLTcxNz
+czNDIxOSwxMzYwMjk4ODI5LDIwODQ0ODk5NDAsLTE1Mzc1NzQ1
+MjcsMTE5MDQ3NTg2Nyw2MTg4OTE2NzcsMTc3MjExODIwMiwtNj
+gxODkwMTk1XX0=
 -->
